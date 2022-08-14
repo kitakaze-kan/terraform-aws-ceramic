@@ -95,9 +95,9 @@ module "s3_data_sync_role" {
   role_name         = "S3DataSyncRole-${local.namespace}"
   role_requires_mfa = false
 
-  custom_role_policy_arns = [
-    aws_iam_policy.s3_ipfs_repo_data_sync[0].arn
-  ]
+  # custom_role_policy_arns = [
+  #   aws_iam_policy.s3_ipfs_repo_data_sync[0].arn
+  # ]
 
   tags = local.default_tags
 }

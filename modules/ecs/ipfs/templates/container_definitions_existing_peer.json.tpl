@@ -17,7 +17,7 @@
         "mountPoints": [
             {
                 "sourceVolume": "${repo_volume_source}",
-                "containerPath": "/data/ipfs"
+                "containerPath": "/data/ipfs/v2"
             }
         ],
         "portMappings": [
